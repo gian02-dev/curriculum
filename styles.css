@@ -89,7 +89,5 @@
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
-}
-.pagina .box-destra .esperienza ul li {
   letter-spacing: 0.05rem;
 }
