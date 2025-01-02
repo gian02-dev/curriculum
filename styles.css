@@ -1,8 +1,42 @@
 .pagina {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .pagina .box-sinistra {
+  width: 30%;
+  background: rgb(50, 59, 76);
 }
 
 .pagina .box-destra {
+  width: 70%;
+}
+
+.pagina .box-destra .introduzione {
+}
+
+.pagina .box-destra .introduzione .titolo {
+  padding: 4rem 2rem 0 2rem;
+  color: rgb(50, 59, 76);
+  display: flex;
+  flex-direction: column;
+}
+.pagina .box-destra .introduzione .titolo h1 {
+  font-size: 3.1rem;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.2rem;
+}
+
+.pagina .box-destra .introduzione .titolo h2 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0 0 0 0.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.pagina .box-destra .introduzione .descrizione {
+  color: rgb(115, 115, 115);
+  padding: 0 0 0 2.5rem;
 }
