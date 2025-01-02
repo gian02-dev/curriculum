@@ -59,3 +59,37 @@
   border: 0.07rem solid rgb(50, 59, 76);
   opacity: 80%;
 }
+
+.pagina .box-destra .esperienza {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem 0 1.5rem 0;
+}
+.pagina .box-destra .esperienza .data {
+  color: rgb(166, 166, 166);
+  -webkit-text-stroke: 0.05rem rgb(166, 166, 166);
+  letter-spacing: 0.1rem;
+  font-size: 1.12rem;
+}
+.pagina .box-destra .esperienza .azienda {
+  color: rgb(115, 115, 115);
+  letter-spacing: 0.1rem;
+  font-size: 1.12rem;
+}
+.pagina .box-destra .esperienza .qualifica {
+  color: rgb(35, 33, 35);
+  font-size: 1.4rem;
+  -webkit-text-stroke: 0.08rem rgb(35, 33, 35);
+}
+.pagina .box-destra .esperienza ul {
+  color: rgb(115, 115, 115);
+  padding: 0 0 0 1.3rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.pagina .box-destra .esperienza ul li {
+  letter-spacing: 0.05rem;
+}
