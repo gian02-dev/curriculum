@@ -10,11 +10,17 @@
 }
 
 .pagina .box-destra {
-  padding: 4rem 2rem 0 2rem;
+  padding: 3.5rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   width: 70%;
 }
 
 .pagina .box-destra .introduzione {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .pagina .box-destra .introduzione .titolo {
@@ -32,57 +38,66 @@
 .pagina .box-destra .introduzione .titolo h2 {
   font-weight: normal;
   margin: 0;
-  padding: 0 0 0 0.5rem;
+  padding-left: 0.5rem;
   letter-spacing: 0.3rem;
 }
 
 .pagina .box-destra .introduzione .descrizione {
   color: rgb(115, 115, 115);
-  padding: 0 0 0 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .pagina .box-destra .introduzione .descrizione p {
-  margin-bottom: 2rem;
+  margin: 0;
 }
 
-.pagina .box-destra .titolo-gruppo {
+.pagina .box-destra .esperienze .titolo-gruppo {
   color: rgb(50, 59, 76);
 }
 
-.pagina .box-destra .titolo-gruppo h1 {
+.pagina .box-destra .esperienze .titolo-gruppo h1 {
   padding: 0;
   margin: 0;
-  padding-top: 1rem;
 }
 
-.pagina .box-destra .titolo-gruppo HR {
+.pagina .box-destra .esperienze .titolo-gruppo hr {
   border: 0.07rem solid rgb(50, 59, 76);
   opacity: 80%;
+  margin-bottom: 0;
 }
 
-.pagina .box-destra .esperienza {
+.pagina .box-destra .esperienze {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pagina .box-destra .esperienze .esperienza {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  padding: 1.5rem 0 1.5rem 0;
 }
-.pagina .box-destra .esperienza .data {
+
+.pagina .box-destra .esperienze .esperienza .data {
   color: rgb(166, 166, 166);
   -webkit-text-stroke: 0.05rem rgb(166, 166, 166);
   letter-spacing: 0.1rem;
   font-size: 1.12rem;
 }
-.pagina .box-destra .esperienza .azienda {
+
+.pagina .box-destra .esperienze .esperienza .azienda {
   color: rgb(115, 115, 115);
   letter-spacing: 0.1rem;
   font-size: 1.12rem;
 }
-.pagina .box-destra .esperienza .qualifica {
+
+.pagina .box-destra .esperienze .esperienza .qualifica {
   color: rgb(35, 33, 35);
   font-size: 1.4rem;
   -webkit-text-stroke: 0.08rem rgb(35, 33, 35);
 }
-.pagina .box-destra .esperienza ul {
+
+.pagina .box-destra .esperienze .esperienza ul {
   color: rgb(115, 115, 115);
   padding: 0 0 0 1.3rem;
   margin: 0;
@@ -92,15 +107,31 @@
   letter-spacing: 0.05rem;
 }
 
-.pagina .box-destra .istruzione {
+.pagina .box-destra .istruzioni .titolo-gruppo h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.pagina .box-destra .istruzioni .titolo-gruppo hr {
+  border: 0.07rem solid rgb(50, 59, 76);
+  opacity: 80%;
+  margin-bottom: 0;
+}
+
+.pagina .box-destra .istruzioni {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pagina .box-destra .istruzioni .istruzione {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  padding: 0.5rem 0 1.5rem 0;
   font-size: 1.1rem;
 }
 
-.pagina .box-destra .istruzione ul {
+.pagina .box-destra .istruzioni .istruzione ul {
   color: rgb(115, 115, 115);
   padding: 0 0 0 1.3rem;
   margin: 0;
