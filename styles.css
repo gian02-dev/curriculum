@@ -51,16 +51,16 @@
   margin: 0;
 }
 
-.pagina .box-destra .esperienze .titolo-gruppo {
+.pagina .box-destra .titolo-gruppo {
   color: rgb(50, 59, 76);
 }
 
-.pagina .box-destra .esperienze .titolo-gruppo h1 {
+.pagina .box-destra .titolo-gruppo h1 {
   padding: 0;
   margin: 0;
 }
 
-.pagina .box-destra .esperienze .titolo-gruppo hr {
+.pagina .box-destra .titolo-gruppo hr {
   border: 0.07rem solid rgb(50, 59, 76);
   opacity: 80%;
   margin-bottom: 0;
@@ -107,12 +107,12 @@
   letter-spacing: 0.05rem;
 }
 
-.pagina .box-destra .istruzioni .titolo-gruppo h1 {
+.pagina .box-destra .titolo-gruppo h1 {
   padding: 0;
   margin: 0;
 }
 
-.pagina .box-destra .istruzioni .titolo-gruppo hr {
+.pagina .box-destra .titolo-gruppo hr {
   border: 0.07rem solid rgb(50, 59, 76);
   opacity: 80%;
   margin-bottom: 0;
