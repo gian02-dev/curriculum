@@ -66,38 +66,124 @@
   margin-bottom: 0;
 }
 
-.pagina .box-destra .esperienze {
+.pagina .box-destra .lavoro {
+  display: flex;
+}
+
+.pagina .box-destra .lavoro .hr-verticale {
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+}
+
+.pagina .box-destra .lavoro .hr-verticale .sezione .linea-1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  opacity: 80%;
+}
+
+.pagina .box-destra .lavoro .hr-verticale .sezione .linea-1 hr {
+  border: 0.07rem solid rgb(50, 59, 76);
+  opacity: 80%;
+  width: 0;
+  height: 100px;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.pagina .box-destra .lavoro .hr-verticale .sezione .linea-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  opacity: 80%;
+}
+
+.pagina .box-destra .lavoro .hr-verticale .sezione .linea-2 hr {
+  border: 0.07rem solid rgb(50, 59, 76);
+  opacity: 80%;
+  width: 0;
+  height: 100px;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.pagina .box-destra .lavoro .hr-verticale .sezione .linea-3 {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  opacity: 80%;
+}
+
+.pagina .box-destra .lavoro .hr-verticale .sezione .linea-3 hr {
+  border: 0.07rem solid rgb(50, 59, 76);
+  opacity: 80%;
+  width: 0;
+  height: 100px;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.pagina .box-destra .lavoro .hr-verticale .sezione .linea-4 {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  opacity: 80%;
+}
+
+.pagina .box-destra .lavoro .hr-verticale .sezione .linea-4 hr {
+  border: 0.07rem solid rgb(50, 59, 76);
+  opacity: 80%;
+  width: 0;
+  height: 100px;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.pagina .box-destra .lavoro .esperienze {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.pagina .box-destra .esperienze .esperienza {
+.pagina .box-destra .lavoro .esperienze .esperienza {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.pagina .box-destra .esperienze .esperienza .data {
+.pagina .box-destra .lavoro .esperienze .esperienza .data {
   color: rgb(166, 166, 166);
   -webkit-text-stroke: 0.05rem rgb(166, 166, 166);
   letter-spacing: 0.1rem;
   font-size: 1.12rem;
 }
 
-.pagina .box-destra .esperienze .esperienza .azienda {
+.pagina .box-destra .lavoro .esperienze .esperienza .azienda {
   color: rgb(115, 115, 115);
   letter-spacing: 0.1rem;
   font-size: 1.12rem;
 }
 
-.pagina .box-destra .esperienze .esperienza .qualifica {
+.pagina .box-destra .lavoro .esperienze .esperienza .qualifica {
   color: rgb(35, 33, 35);
   font-size: 1.4rem;
   -webkit-text-stroke: 0.08rem rgb(35, 33, 35);
 }
 
-.pagina .box-destra .esperienze .esperienza ul {
+.pagina .box-destra .lavoro .esperienze .esperienza ul {
   color: rgb(115, 115, 115);
   padding: 0 0 0 1.3rem;
   margin: 0;
