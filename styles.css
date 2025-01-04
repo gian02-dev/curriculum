@@ -68,10 +68,28 @@
 
 .pagina .box-destra .lavoro {
   display: flex;
+  gap: 1rem;
 }
 
 .pagina .box-destra .lavoro .hr-verticale {
-  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+  padding-top: 0.1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.pagina .box-destra .lavoro .hr-verticale .sezione {
+  display: flex;
+  flex-direction: column;
+}
+
+.pagina .box-destra .lavoro .hr-verticale .sezione span {
+  height: 0.7rem;
+  width: 0.7rem;
+  border-radius: 100%;
+  border: 0.2rem solid rgb(50, 59, 76);
+  display: inline-block;
   margin: 0;
   padding: 0;
 }
@@ -81,14 +99,11 @@
   flex-direction: column;
   margin: 0;
   padding: 0;
-  opacity: 80%;
 }
 
 .pagina .box-destra .lavoro .hr-verticale .sezione .linea-1 hr {
   border: 0.07rem solid rgb(50, 59, 76);
-  opacity: 80%;
   width: 0;
-  height: 100px;
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 0;
@@ -100,14 +115,11 @@
   flex-direction: column;
   margin: 0;
   padding: 0;
-  opacity: 80%;
 }
 
 .pagina .box-destra .lavoro .hr-verticale .sezione .linea-2 hr {
   border: 0.07rem solid rgb(50, 59, 76);
-  opacity: 80%;
   width: 0;
-  height: 100px;
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 0;
@@ -119,14 +131,11 @@
   flex-direction: column;
   margin: 0;
   padding: 0;
-  opacity: 80%;
 }
 
 .pagina .box-destra .lavoro .hr-verticale .sezione .linea-3 hr {
   border: 0.07rem solid rgb(50, 59, 76);
-  opacity: 80%;
   width: 0;
-  height: 100px;
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 0;
@@ -138,14 +147,11 @@
   flex-direction: column;
   margin: 0;
   padding: 0;
-  opacity: 80%;
 }
 
 .pagina .box-destra .lavoro .hr-verticale .sezione .linea-4 hr {
   border: 0.07rem solid rgb(50, 59, 76);
-  opacity: 80%;
   width: 0;
-  height: 100px;
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 0;
